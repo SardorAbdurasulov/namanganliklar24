@@ -36,7 +36,6 @@ body {
   line-height: 1.5;
   background-color: #fff;
   color: #222;
-  margin-top: 80px;
   overflow-x: hidden;
 }
 
@@ -57,13 +56,131 @@ img {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.site-footer {
+  max-width: 100%;
+  border-top: 4px solid #295093 ;
+  background: #F6F6F9;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.site-logo {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.logo-img {
+  display: block;
+  margin: 0;
+  padding: 5px 8px;
+}
+
+.valuts-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: 23px;
+}
+
+.valuts-item:not(:last-child) {
+  margin-right: 22px;
+}
+
+.kurs {
+  font-weight: bold;
+  font-size: 16px;
+  color: #285193;
+  padding-right: 4px;
+}
+
+.head-link {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: auto;
+  text-decoration: none;
+  color: #fff;
+  padding: 11px 12px 8px 37px;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  position: relative;
+}
+
+.head-link::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../img/telegram-top.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.news {
+  margin-top: 44px;
+  margin-bottom: 18px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+}
+
+.news-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 21px 0;
+  list-style-type: none;
+}
+
+.news-item:not(:last-child) {
+  margin-right: 22px;
+}
+
+.news-link {
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #222;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+aside {
+  padding-bottom: 23px;
+}
+
+.banner-reklama {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.img-banner {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
 
 @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
