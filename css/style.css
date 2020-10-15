@@ -135,7 +135,7 @@ img {
   background-repeat: no-repeat;
 }
 
-.news {
+.service {
   margin-top: 44px;
   margin-bottom: 18px;
   background-color: #fff;
@@ -143,7 +143,7 @@ img {
   border-radius: 5px;
 }
 
-.news-list {
+.service-list {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -151,11 +151,11 @@ img {
   list-style-type: none;
 }
 
-.news-item:not(:last-child) {
+.service-item:not(:last-child) {
   margin-right: 22px;
 }
 
-.news-link {
+.service-link {
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
