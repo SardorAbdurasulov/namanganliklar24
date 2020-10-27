@@ -285,6 +285,45 @@ aside {
   color: #222;
 }
 
+.news-top {
+  max-width: 100%;
+  padding-top: 18px;
+}
+
+.news-top-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: -10px;
+  list-style-type: none;
+}
+
+.news-top-item {
+  width: 380px;
+  margin-left: 10px;
+  margin-bottom: 18px;
+}
+
+.news-top-link {
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.news-top-title {
+  margin-top: 0;
+  margin-bottom: 11px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #222;
+}
+
+.time {
+  font-size: 14px;
+  color: #6B6D97;
+}
+
 @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
@@ -293,4 +332,16 @@ aside {
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) {
 
+    .covid-item-info::after {
+      background-image: url("../img/covid@2x.png");
+    }
+    .mask::after {
+      background-image: url("../img/mask@2x.png");
+    }
+    .good::after {
+      background-image: url("../img/cil_smile@2x.png");
+    }
+    .die::after {
+      background-image: url("../img/Vector@2x.png");
+    }
 }
