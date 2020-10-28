@@ -63,7 +63,7 @@ img {
   margin-right: auto;
 }
 
-.site-footer {
+.header {
   max-width: 100%;
   border-top: 4px solid #295093 ;
   background: #F6F6F9;
@@ -593,6 +593,118 @@ aside {
   height: 50px;
 }
 
+.site-footer {
+  max-width: 100%;
+  background: #295093;
+  margin-top: 38px;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #133C82;
+  padding: 18px 0;
+}
+
+.footer__logo {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #133C82;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.footer__telegram {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.telegram-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__telegram-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+  padding: 10px;
+  margin-left: 17px;
+}
+
+.footer__telegram-link::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 20px;
+  margin-right: 6px;
+  background-image: url("../img/footer-telegram.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.footer-bottom {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+
+.footer-box {
+  width: 355px;
+}
+
+.footer-box__title {
+  margin-top: 0;
+  margin-bottom: 19px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-box__text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 111px;
+}
+
+.footer__link {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__link:not(:last-child) {
+  padding-bottom: 10px;
+}
+
 
 
 @media
@@ -614,5 +726,8 @@ aside {
     }
     .die::after {
       background-image: url("../img/Vector@2x.png");
+    }
+    .tel-img::before {
+      background-image: url("../img/tel@2x.png");
     }
 }
