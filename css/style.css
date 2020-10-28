@@ -521,6 +521,78 @@ aside {
   height: 477px;
 }
 
+.massangers-section {
+  max-width: 100%;
+  padding-top: 38px;
+
+}
+
+.massangers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F6F6F9;
+  border-radius: 5px;
+}
+
+.tel-img {
+  width: 236px;
+  padding-top: 37px;
+}
+
+.tel-img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 177px;
+  background-image: url("../img/tel.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.massangers__about {
+  width: 526px;
+}
+
+.about__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+}
+
+.about__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.massangers {
+  display: flex;
+  align-items: center;
+}
+
+.massangers__link {
+  display: block;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 19px;
+}
+
+.massangers__link:not(:last-child) {
+  margin-right: 19px;
+}
+
+.massangers-img {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 162px;
+  height: 50px;
+}
+
 
 
 @media
